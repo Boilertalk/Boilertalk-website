@@ -1,5 +1,8 @@
 # BoilertalkWebsite
 
+This is a new version of our Boilertalk website. I like Dart, but it is very hard to find proficient developers (myself included).
+So I decided to use Angular with Typescript for all our frontends.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
 ## Development server
