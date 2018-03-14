@@ -1,0 +1,34 @@
+
+.footer {
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background: #0097A7;
+    text-align: center;
+    box-shadow: inset 0 50px 40px -40px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 50px 40px -40px rgba(0,0,0,0.3);
+}
+.footer .footer-brand-logo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 40px;
+    border: 20px solid;
+    border-color: #BDBDBD #FF4081 #FF4081;
+    border-radius: 4px;
+}
+.footer .footer-brand {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+}
+.footer .social-list {
+    margin: 0;
+    font-size: 20px;
+}
+
+.footer-text {
+    color: #fff;
+    display: inline-block;
+}
