@@ -1,0 +1,226 @@
+
+/*
+General content settings
+*/
+
+.background-theme{
+    background: #FF4081;
+}
+
+.landing-page-content{
+  padding: 0 !important;
+  position: relative;
+}
+
+.content-wrapper{
+  margin-bottom: 200px;
+}
+
+img {
+	width:auto;
+	max-width:100%;
+	height:auto;
+  opacity: 0.85;
+}
+
+.content-has-background{
+  padding-bottom: 18px;
+  overflow: hidden;
+  position: relative;
+}
+
+.content-background{
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/*
+Title content settings
+*/
+
+.title-content{
+  top: 50%;
+  z-index: 100;
+  height:auto;
+  max-height: 800px;
+  margin:auto;
+  margin-top: 120px;
+  text-align: center;
+  padding: 6.5%;
+}
+.title-content h1{
+  color: #FFF;
+}
+.title-content h2,
+.title-content h3,
+.title-content h4 {
+  color: #FFF;
+  opacity: 0.87;
+}
+
+.title-button {
+  font-size: 26px;
+  height: 2em;
+  width: auto;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.calculator-form {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 5%;
+}
+
+.calculator-title {
+  margin-left: 0;
+  color: #000;
+  opacity: 0.87;
+  font-size: 26px !important;
+}
+
+.earnings {
+  color: #000;
+  opacity: 0.87;
+  font-size: 22px;
+  margin: 3%;
+}
+
+.home-content{
+  top: 10%;
+  z-index: 100;
+  height: auto;
+  max-height: 800px;
+  margin:auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 3%;
+  color: #000;
+}
+
+.home-content h1 {
+  color: #000;
+  opacity: 0.87;
+}
+
+.home-content h2,
+.home-content h3,
+.home-content h4 {
+  color: #000;
+  opacity: 0.54;
+}
+
+.features {
+    text-align: center;
+    padding: 30px;
+}
+.features .icon {
+    display: inline-block;
+    border-radius: 300px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.features .info {
+    margin-top: 15px;
+}
+.features .image img {
+    border-radius: 300px;
+}
+.features .name {
+    margin-bottom: 5px;
+}
+.features .title {
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.features p {
+    margin-bottom: 15px;
+}
+
+
+/* Action Box Element Setting */
+
+.action-box{
+  padding: 5%;
+}
+
+.action-box h3 {
+    margin-bottom: 5px;
+    margin-top: 3px;
+    color: #fff;
+    opacity: 0.87;
+}
+.action-box .icon-large {
+    font-size: 48px;
+    float: left;
+    margin-right: 20px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    color: #fff;
+    opacity: 0.87;
+}
+
+.calculate-button {
+  font-size: 26px;
+  height: 2em;
+  width: auto;
+  color: #fff;
+}
+
+.dark-image{
+  opacity: 0.8;
+}
+
+.primary-icon-theme{
+  background: #00BCD4;
+}
+
+
+.landingpagefooter {
+    margin-top: 100px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background: #0097A7;
+    text-align: center;
+    box-shadow: inset 0 50px 40px -40px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 50px 40px -40px rgba(0,0,0,0.3);
+}
+.landingpagefooter .landingpagefooter-brand-logo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 40px;
+    border: 20px solid;
+    border-color: #BDBDBD #FF4081 #FF4081;
+    border-radius: 4px;
+}
+.landingpagefooter .landingpagefooter-brand {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+}
+.landingpagefooter .social-list {
+    margin: 0;
+    font-size: 20px;
+}
+
+.landingpagefooter-text {
+    color: #fff;
+    display: inline-block;
+}
