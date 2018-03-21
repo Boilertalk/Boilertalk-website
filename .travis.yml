@@ -1,0 +1,34 @@
+language: node_js
+node_js:
+   - "9"
+
+# sudo for docker
+sudo: required
+services:
+  - docker
+
+branches:
+  only:
+    - master
+
+before_script:
+  - npm install
+  # python2.7 for gcloud
+  - sudo apt-get update
+  - sudo apt install -y python2.7 python-pip curl
+  # Install gcloud tools
+  - cd /tmp
+  - curl -o gcloud.tar.gz https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-185.0.0-linux-x86_64.tar.gz?hl=de
+  - tar -xzvf gcloud.tar.gz
+  # Set path to tmp gcloud installation
+  - export PATH="$PATH:/tmp/google-cloud-sdk/bin"
+  # Login with service account
+  - echo $GCLOUD_SERVICE_ACCOUNT_KEY > key.json
+  - gcloud auth activate-service-account travis-boilertalk-com@boilertalk-main.iam.gserviceaccount.com --key-file=key.json --project=boilertalk-main
+  - cd -
+
+script:
+  - node_modules/@angular/cli/bin/ng build --prod
+
+after_success:
+  - docker/build.sh
