@@ -19,7 +19,7 @@ before_script:
   # Install gcloud tools
   - cd /tmp
   - curl -o gcloud.tar.gz https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-185.0.0-linux-x86_64.tar.gz?hl=de
-  - tar -xzvf gcloud.tar.gz
+  - tar -xzf gcloud.tar.gz
   # Set path to tmp gcloud installation
   - export PATH="$PATH:/tmp/google-cloud-sdk/bin"
   # Login with service account
