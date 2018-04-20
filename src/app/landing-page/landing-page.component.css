@@ -8,6 +8,7 @@ General content settings
 }
 
 .landing-page-content{
+  margin-top: 10px;
   padding: 0 !important;
   position: relative;
 }
@@ -62,32 +63,13 @@ Title content settings
   opacity: 0.87;
 }
 
+
 .title-button {
   font-size: 26px;
   height: 2em;
   width: auto;
   color: #fff;
   margin-left: 20px;
-}
-
-.calculator-form {
-  display: flex;
-  flex-direction: column;
-  padding: 5% 5%;
-}
-
-.calculator-title {
-  margin-left: 0;
-  color: #000;
-  opacity: 0.87;
-  font-size: 26px !important;
-}
-
-.earnings {
-  color: #000;
-  opacity: 0.87;
-  font-size: 22px;
-  margin: 3%;
 }
 
 .home-content{
@@ -98,7 +80,7 @@ Title content settings
   margin:auto;
   margin-top: 40px;
   margin-bottom: 40px;
-  text-align: center;
+  text-align: auto;
   padding: 3%;
   color: #000;
 }
@@ -112,7 +94,16 @@ Title content settings
 .home-content h3,
 .home-content h4 {
   color: #000;
-  opacity: 0.54;
+  opacity: 0.67;
+}
+
+.home-content a {
+  color: #ff4081;
+  opacity: 0.87;
+}
+
+.white {
+  color: white;
 }
 
 .features {

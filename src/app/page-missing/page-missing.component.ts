@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import {Router} from '@angular/router';
+
 @Component({
   selector: 'app-page-missing',
   templateUrl: './page-missing.component.html',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageMissingComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router,
+  ) { }
 
   ngOnInit() {
+    setTimeout(() => {
+      this.router.navigate(['/home']);
+    }, 4000);
   }
 
 }
