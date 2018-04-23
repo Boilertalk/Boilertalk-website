@@ -181,6 +181,10 @@ Title content settings
   background: #00BCD4;
 }
 
+.material-icon {
+  padding-top: 4px;
+}
+
 
 .landingpagefooter {
     margin-top: 100px;
