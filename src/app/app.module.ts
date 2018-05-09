@@ -12,6 +12,7 @@ import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { PageMissingComponent } from './page-missing/page-missing.component';
+import { FaqComponent } from './faq/faq.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { PageMissingComponent } from './page-missing/page-missing.component';
     MenuBarComponent,
     FooterComponent,
     LandingPageComponent,
-    PageMissingComponent
+    PageMissingComponent,
+    FaqComponent
   ],
   imports: [
     BrowserModule,

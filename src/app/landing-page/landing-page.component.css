@@ -39,6 +39,16 @@ img {
   right: 0;
 }
 
+.color-background{
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #00BCD4;
+}
+
 /*
 Title content settings
 */
@@ -103,6 +113,10 @@ Title content settings
 
 .white {
   color: white;
+}
+
+.secondary{
+  color: #ff4081;
 }
 
 .features {
