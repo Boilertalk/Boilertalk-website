@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {HttpModule} from '@angular/http';
 import {HttpClientModule } from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import {AppRoutingModule} from './app-routing.module';
 import {MaterialModule} from './material.module';
@@ -28,9 +28,9 @@ import { FaqComponent } from './faq/faq.component';
     BrowserModule,
     MaterialModule,
     AppRoutingModule,
-    HttpModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
