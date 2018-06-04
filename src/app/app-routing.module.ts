@@ -6,7 +6,7 @@ import { PageMissingComponent } from './page-missing/page-missing.component';
 import { FaqComponent } from './faq/faq.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
+  {path: '', component: LandingPageComponent},
   {path: 'home', component: LandingPageComponent},
   {path: 'faq', component: FaqComponent},
   {path: '**', component: PageMissingComponent}
