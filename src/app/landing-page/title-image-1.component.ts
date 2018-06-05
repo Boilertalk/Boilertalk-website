@@ -3,11 +3,6 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
 @Component({
     selector: 'app-title-image-1',
     template: `
-        <img
-        [defaultImage]="defaultImage"
-        [lazyLoad]="images"
-        [offset]="offset"
-        [useSrcset]="true">
         <picture>
             <source [attr.defaultImage]="defaultImage" [attr.lazyLoad]="imageswebp" type="image/webp">
             <source [attr.defaultImage]="defaultImage" [attr.lazyLoad]="imagesjpeg" type="image/jpeg">
