@@ -1,7 +1,11 @@
 <div class="content-wrapper">
   <div class="landing-page-content content-has-background">
     <div class="content-background">
-      <img src="assets/images/white1x.jpg" srcset="assets/images/white1x.webp 700w, assets/images/white.webp 1100w" alt="Home" />
+      <picture>
+        <source srcset="assets/images/white1x.webp 700w, assets/images/white.webp 1100w" type="image/webp" />
+        <source srcset="assets/images/white1x.jpg 700w, assets/images/white.jpg 1100w" type="image/jpg" />
+        <img src="assets/images/white.jpg" alt="Home" />
+      </picture>
     </div>
     <div class="container home-content">
       <div class="row">
