@@ -12,8 +12,8 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class TitleImage2Component {
-    defaultImage = 'assets/images/title31x.jpg';
-    images = `assets/images/title31x.webp 1x,
-     assets/images/title3.webp 2x`;
+    defaultImage = 'assets/images/title3lowres.jpg';
+    images = `assets/images/title31x.jpg 972w,
+     assets/images/title3.webp 1980w`;
     offset = 100;
 }

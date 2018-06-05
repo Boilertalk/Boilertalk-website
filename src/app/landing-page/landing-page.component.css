@@ -3,6 +3,10 @@
 General content settings
 */
 
+img {
+  width: 100%;
+}
+
 .background-theme{
     background: #FF4081;
 }
@@ -28,6 +32,7 @@ img {
   padding-bottom: 18px;
   overflow: hidden;
   position: relative;
+  background-size: 100%;
 }
 
 .content-background{
@@ -37,6 +42,7 @@ img {
   left: 0;
   bottom: 0;
   right: 0;
+  background-size: cover;
 }
 
 .color-background{
@@ -52,35 +58,6 @@ img {
 /*
 Title content settings
 */
-
-.title-content{
-  top: 50%;
-  z-index: 100;
-  height:auto;
-  max-height: 800px;
-  margin:auto;
-  margin-top: 120px;
-  text-align: center;
-  padding: 6.5%;
-}
-.title-content h1{
-  color: #FFF;
-}
-.title-content h2,
-.title-content h3,
-.title-content h4 {
-  color: #FFF;
-  opacity: 0.87;
-}
-
-
-.title-button {
-  font-size: 26px;
-  height: 2em;
-  width: auto;
-  color: #fff;
-  margin-left: 20px;
-}
 
 .home-content{
   top: 10%;
