@@ -15,7 +15,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
 })
 export class TitleImage2Component {
     defaultImage = 'assets/images/title3lowres.jpg';
-    imagejpg = 'assets/images/title3.jpg'
+    imagejpg = 'assets/images/title3.jpg';
     imageswebp = `assets/images/title31x.jpg 972w,
      assets/images/title3.webp 1980w`;
     imagesjpg = `assets/images/title31x.jpg 972w,
