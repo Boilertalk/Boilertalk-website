@@ -8,7 +8,6 @@ import { FaqComponent } from './faq/faq.component';
 const routes: Routes = [
   {path: '', component: LandingPageComponent},
   {path: 'home', component: LandingPageComponent},
-  {path: 'faq', component: FaqComponent},
   {path: '**', component: PageMissingComponent}
 ];
 
